@@ -36,7 +36,7 @@ handleClick(i) {
   }
 
   render() {
-    const status = "Next player: X";
+    const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     return (
       <div>
         <div className="status">{status}</div>
